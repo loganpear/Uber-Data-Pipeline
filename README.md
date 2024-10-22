@@ -1,7 +1,8 @@
 # 🚗 Uber Data ETL Pipeline
 By: Logan Pearson, Guided by: Darshil Parmar
+
 ## Overview
-This project simulates the role of a Data Engineer by extracting, transforming, and loading (ETL) Uber trip data into a **star schema**. The goal of this project is to optimize the dataset for efficient querying and analysis by transforming raw trip data into multiple dimension tables and a fact table. The process focuses on improving data structure to support efficient analytics.
+This project simulates the role of a Data Engineer by extracting, transforming, and loading (ETL) Uber trip data into a **star schema**. The goal of this project is to optimize the dataset for efficient querying and analysis by transforming raw trip data into multiple dimension tables and a fact table. The process focuses on improving data structure to support efficient analytics, including performing basic summary statistics using SQL.
 
 ## Key Steps
 The ETL process is divided into three main sections:
@@ -38,19 +39,22 @@ The transformation process involves cleaning and reformatting the raw data into 
   - `payment_type_dimension`
   - `fact_table`
 
-## Star Schema Design
-The star schema is designed to optimize the data for efficient querying and analysis, consisting of the following:
-
-- **Fact Table**: Contains foreign keys to the dimension tables and metrics such as fare amount, tip amount, and total trip revenue.
-- **Dimension Tables**: Provide context to the fact table with descriptive data (e.g., time, location, payment methods).
+## 📊 SQL Analysis
+**Basic Summary Statistics**: Performed SQL queries in BigQuery to generate insights from the data, including:
+  - Total number of trips
+  - Average fare and tip amounts
+  - Maximum trip distance
+  - Total revenue
+  - Number of distinct days in the dataset
 
 ## Technologies Used
 - **Python**: For data extraction, transformation, and loading.
-- **Google Cloud Storage**: To store the raw Uber data.
-- **Google BigQuery**: To store the transformed data in a star schema.
 - **Pandas**: For data manipulation during the transformation process.
+- **Google Cloud Storage**: To store the raw Uber data.
+- **Google BigQuery**: To store the transformed data in a star schema and perform SQL queries.
+- **SQL**: For querying data and generating insights from the transformed data.
 
 ## Credits
-- This project could not have been completed without the guidance of Darshil Parmar: https://github.com/darshilparmar
-- Much of my transformation code is straight from Parmar's youtube tutorial here: https://www.youtube.com/watch?v=WpQECq5Hx9g
-- Uber dataset:  https://github.com/darshilparmar/uber-etl-pipeline-data-engineering-project/blob/main/data/uber_data.csv
+- This project could not have been completed without the guidance of Darshil Parmar: [GitHub](https://github.com/darshilparmar)
+- Much of my transformation code is from Parmar's YouTube tutorial here: [YouTube Tutorial](https://www.youtube.com/watch?v=WpQECq5Hx9g)
+- Uber dataset link: [Uber Dataset](https://github.com/darshilparmar/uber-etl-pipeline-data-engineering-project/blob/main/data/uber_data.csv)
