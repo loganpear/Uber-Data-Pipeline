@@ -52,5 +52,5 @@ The star schema is designed to optimize the data for efficient querying and anal
 
 ## Credits
 - This project could not have been completed without the guidance of Darshil Parmar: https://github.com/darshilparmar
-- Much of my transformaion code is straight from his youtube tutorial here: https://www.youtube.com/watch?v=WpQECq5Hx9g
+- Much of my transformation code is straight from his youtube tutorial here: https://www.youtube.com/watch?v=WpQECq5Hx9g
 - Uber dataset:  https://github.com/darshilparmar/uber-etl-pipeline-data-engineering-project/blob/main/data/uber_data.csv
