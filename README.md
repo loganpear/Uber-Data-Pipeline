@@ -1,5 +1,5 @@
 # 🚗 Uber Data ETL Pipeline
-By: Logan Pearson, Guided by: Darshil Parmar
+Guided project by: [Darshil Parmar](https://github.com/darshilparmar)
 
 ## Overview
 This project simulates the role of a Data Engineer by extracting, transforming, and loading (ETL) Uber trip data into a **star schema**. The goal of this project is to optimize the dataset for efficient querying and analysis by transforming raw trip data into multiple dimension tables and a fact table. The process focuses on improving data structure to support efficient analytics, including performing basic summary statistics using SQL.
