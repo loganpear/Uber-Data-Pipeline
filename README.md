@@ -56,5 +56,5 @@ The transformation process involves cleaning and reformatting the raw data into 
 
 ## Credits
 - This project could not have been completed without the guidance of Darshil Parmar: [GitHub](https://github.com/darshilparmar)
-- Much of my transformation code is from Parmar's YouTube tutorial here: [YouTube Tutorial](https://www.youtube.com/watch?v=WpQECq5Hx9g)
+- Transformation code is from Parmar's YouTube tutorial here: [YouTube Tutorial](https://www.youtube.com/watch?v=WpQECq5Hx9g)
 - Uber dataset link: [Uber Dataset](https://github.com/darshilparmar/uber-etl-pipeline-data-engineering-project/blob/main/data/uber_data.csv)
